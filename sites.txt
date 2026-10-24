@@ -4,3 +4,4 @@ Action Log|https://actionlog.gestaodfsindicos.tech/api/saude
 Vistorias|https://vistorias.gestaodfsindicos.tech/api/saude
 Aprovações|https://aprovacoes.gestaodfsindicos.tech/api/saude
 Boletim|https://boletim.gestaodfsindicos.tech/api/saude
+Teste do aviso (temporário)|https://gestaodfsindicos.tech/teste-do-monitor-404

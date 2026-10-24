@@ -59,7 +59,7 @@ done
 
 ultimo="$(git log -1 --format=%ct 2>/dev/null || echo 0)"
 velho=$(( $(date +%s) - ultimo > 45 * 86400 ))
-[ "$mudou" = 1 ] || [ "$velho" = 1 ] || { echo "sem mudança"; exit 0; }
+[ "$mudou" = 1 ] || [ "$velho" = 1 ] || [ ! -f SITUACAO.md ] || { echo "sem mudança"; exit 0; }
 
 {
   echo "# Situação dos sistemas DF"
